@@ -12,6 +12,4 @@ class EurekaServerApplicationTests {
     void startsApplicationWithoutException() {
         assertDoesNotThrow(() -> EurekaServerApplication.main(new String[]{}));
     }
-
-
 }
